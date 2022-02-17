@@ -4,7 +4,7 @@ metadata:
   name: website-gateway
 spec:
   selector:
-    # Which pods we want to expose as Istio router
+    # Which pods we want to expose as Istio router 
     # This label points to the default one installed from file istio-demo.yaml
     istio: ingressgateway
   servers:
